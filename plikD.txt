@@ -1,1 +1,1 @@
-To jest zawartość pliku D.
+To jest nowa zawartość pliku D.
