@@ -1,0 +1,7 @@
+Feature: Program zamieniajacy podany przez uzytkownika ulamek zwykly na dziesietny
+
+@Scenario
+Scenario: Uzytkownik wpisuje liczbe
+    Given Uzytkownik musi posiadac kalkulator
+    When  Uzytkownik wpisuje liczby 1, 1, 2
+    Then  Podana liczbe program zamienil na 1.5

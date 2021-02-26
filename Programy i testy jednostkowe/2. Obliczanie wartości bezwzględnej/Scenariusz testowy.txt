@@ -1,0 +1,13 @@
+Feature: Program wyswietlajacy wartosc bezwzledna liczby calkowitej
+
+@Scenario1
+Scenario: Wartosc bezwzgledna z liczby dodaniej
+    Given Uzytkownik posiada kalkulator z funkcja obliczenia liczby bezwglednej
+    When  Uzytkownik wpisal liczbe 10
+    Then  Uzytkownik powinien otrzymac wartosc 10
+
+@Scenario2
+Scenario: Wartosc bezwzgledna z liczby ujemnej
+    Given Uzytkownik posiada kalkulator z funkcja obliczenia liczby bezwglednej
+    When  Uzytkownik zapisal liczbe -3
+    Then  Uzytkownik powinien miec wartosc 3
