@@ -1,0 +1,3 @@
+/* Wyświetl jaki procent populacji Rosji,zamiezkuje jej stolicę */
+
+ select city.name as Capital, city.population as populationCapitol, country.name as country,  country.population as populationCountries, (city.population/country.population)*100 as percentPopulationOfCountry from city  left join country on city.countryCode = country.code where country.name = 'Russian Federation' and city.name = 'Moscow'; 
